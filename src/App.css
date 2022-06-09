@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.time-picker_button {
+  background-color: #EEE;
+  color: #333;
+  border: none;
+  /* border-radius: 5px; */
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-right: 1px solid #999;
+}
+
+.time-picker_button_selected {
+  background-color: #61dafb;
+  color: #EEE;
+  border: none;
+  /* border-radius: 5px; */
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-right: 1px solid #999;
+  font-weight: bold;
+}
+
+.code-view {
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.coin-list-cointainer {
+  width: calc(100% - 6rem);
+}
